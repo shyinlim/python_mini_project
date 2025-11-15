@@ -24,12 +24,12 @@ This project uses Python 3.x with only standard library modules (no external dep
 
 1. create `demo.py`
 
-2Import the logger setup function:
+2. Import the logger setup function:
 ```python
 from logger import setup_logger
 ```
 
-2. Choose your setup method:
+3. Choose your setup method:
 
 **Method 1: Customized Configuration**
 ```python
@@ -51,7 +51,7 @@ logger.debug('Debug message')
 logger.info('Info message')
 ```
 
-3. Run your Python script:
+4. Run your Python script:
 ```bash
 python3 demo.py
 ```
